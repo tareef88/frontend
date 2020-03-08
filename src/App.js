@@ -13,7 +13,9 @@ const useStyles = createUseStyles({
     justifyContent: 'center',
   },
   input: {
-    width: '25%',
+    width: '50%',
+    height: 30,
+    fontSize: 16,
   },
 });
 
