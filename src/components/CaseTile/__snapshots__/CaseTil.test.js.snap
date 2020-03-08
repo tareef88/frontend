@@ -1,0 +1,51 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Link changes the class when hovered 1`] = `
+<div
+  className="main-0-2-1"
+>
+  <div
+    className="imageContainer-0-2-2"
+  >
+    <img
+      alt="Bike"
+      className="tileImage-0-2-8"
+      src={null}
+    />
+  </div>
+  <div
+    className="infoContainer-0-2-3"
+  >
+    <div
+      className="titleDescriptionContainer-0-2-9"
+    >
+      <text
+        className="title-0-2-4"
+      >
+        Stolen 2017 Raleigh Tourist de Luxe(green)
+      </text>
+      <text
+        className="description-0-2-5"
+      >
+        
+      </text>
+    </div>
+    <div
+      className="dateAddressContainer-0-2-10"
+    >
+      <text
+        className="date-0-2-6"
+        style={
+          Object {
+            "fontSize": "calc(12px + 1vw)",
+          }
+        }
+      >
+        2019-1-5
+         
+        Frederiksberg, 2000, DK
+      </text>
+    </div>
+  </div>
+</div>
+`;
