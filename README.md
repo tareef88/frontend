@@ -1,4 +1,32 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# Catalog of stolen bikes
+In this simple react application you will be able to fetch a cases reported for stolen bikes from around Malmo or to be more specific around the docly office with coordinates `55.607405,12.998945`
+
+# Api used 
+
+To fetch data about stolen bikes:
+
+```js
+https://bikewise.org:443/api/v2/incidents?page=1&proximity=55.607405%2C12.998945&proximity_square=100
+```
+
+### Deployment
+
+This project is live on :https://frontend-1b099ng5d.now.sh/
+
+### Requirements 
+- [x] I want to pull data from the Bikewise API
+- [x] I want to see a list of bikes stolen in the Malmö area (the coordinates for our office are 55.607405,12.998945)
+- [x] For each reported theft I want to see
+- [x] Case title
+- [x] Case description
+- [x] Date of the theft (format yyyy-mm-dd hh:ss)
+- [x] Date of the report (format yyyy-mm-dd hh:ss)
+- [x] Location of the theft
+- [x] Image of the bike (if available)
+- [x] Link to a page with more information
+- [x] I want to see a loading state while the cases are loading
+- [x] I want to be able to filter the cases by title and by location
+- [x] I want to be able to use the app on mobile as well as desktop, with mobile being the most important.
 
 ## Available Scripts
 
@@ -36,33 +64,3 @@ If you aren’t satisfied with the build tool and configuration choices, you can
 Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
 
 You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/code-splitting
-
-### Analyzing the Bundle Size
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size
-
-### Making a Progressive Web App
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app
-
-### Advanced Configuration
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/advanced-configuration
-
-### Deployment
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/deployment
-
-### `yarn build` fails to minify
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
