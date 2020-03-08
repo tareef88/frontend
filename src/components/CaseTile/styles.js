@@ -13,7 +13,7 @@ const useStyles = createUseStyles({
     'box-shadow': '0px 7px 40px 6px rgba(0,0,0,0.75);',
   },
   imageContainer: {
-    width: '25%',
+    width: '30%',
     height: '100%',
     justifyContent: 'center',
     alignItems: 'center',
@@ -21,7 +21,7 @@ const useStyles = createUseStyles({
   },
   infoContainer: {
     textAlign: 'left',
-    width: '75%',
+    width: '70%',
     display: 'flex',
     flexDirection: 'column',
     padding: 10,
