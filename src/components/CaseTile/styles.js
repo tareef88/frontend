@@ -33,6 +33,7 @@ const useStyles = createUseStyles({
   description: {
     fontSize: 14,
     marginTop: 10,
+    'text-overflow': 'ellipsis',
   },
   date: {
     fontSize: 14,
@@ -42,14 +43,15 @@ const useStyles = createUseStyles({
 
   },
   tileImage: {
-    width: 90,
-    height: 80,
+    width: 70,
+    height: 70,
   },
   titleDescriptionContainer: {
     display: 'flex',
     flexDirection: 'column',
     height: '70%',
     paddingLeft: 10,
+    overflow: 'scroll',
   },
   dateAddressContainer: {
     height: '30%',

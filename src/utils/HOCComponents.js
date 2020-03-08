@@ -25,21 +25,16 @@ async function fetchCases(setState) {
 
 export const WithLoader = branch(({ loading }) => loading, renderComponent(() => (
   <div style={{
-    top: 0,
-    left: 0,
-    right: 0,
-    bottom: 0,
+    flex: 1, justifyContent: 'center', textAlign: 'center', marginTop: 30,
   }}
   >
-    <div style={{ position: 'absolute', top: '50%', left: '50%' }}>
-      <Loader
-        type="Puff"
-        color="#00BFFF"
-        height={100}
-        width={100}
-        timeout={3000}
-      />
-    </div>
+    <Loader
+      type="Puff"
+      color="#00BFFF"
+      height={100}
+      width={100}
+      timeout={3000}
+    />
   </div>
 )));
 
